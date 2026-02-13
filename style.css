@@ -1,0 +1,10 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+}
+
+canvas{
+    max-width: 600px;
+    margin: auto;
+}

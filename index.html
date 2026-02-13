@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Monitor de Batería</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+<h1>Monitor de Batería</h1>
+
+<p id="nivel">Nivel: --%</p>
+<p id="estado">Estado: --</p>
+
+<p id="velocidad">Velocidad: --</p>
+<p id="consumoTotal">Consumo total: --</p>
+
+<canvas id="grafica"></canvas>
+
+<br><br>
+
+<button onclick="limpiarHistorial()">Limpiar Historial</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
